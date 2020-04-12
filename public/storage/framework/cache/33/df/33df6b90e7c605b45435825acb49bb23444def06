@@ -1,0 +1,8 @@
+1586656324a:1:{s:19:"games-gin-rummy.htm";a:7:{s:8:"fileName";s:19:"games-gin-rummy.htm";s:7:"content";s:139:"[viewBag]
+title = "Gin-Rummy"
+url = "/games/gin-rummy"
+layout = "default"
+is_hidden = 0
+navigation_hidden = 0
+==
+<p>Gin Rummy card game</p>";s:5:"mtime";i:1586524544;s:6:"markup";s:26:"<p>Gin Rummy card game</p>";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:9:"Gin-Rummy";s:3:"url";s:16:"/games/gin-rummy";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:26:"<p>Gin Rummy card game</p>";}}

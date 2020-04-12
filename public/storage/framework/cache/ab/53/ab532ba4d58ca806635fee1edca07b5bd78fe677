@@ -1,0 +1,45 @@
+1586699048a:1:{s:23:"plugins/faqcategory.htm";a:12:{s:8:"fileName";s:23:"plugins/faqcategory.htm";s:7:"content";s:518:"title = "FAQ"
+url = "/faq-category/:slug?"
+layout = "default"
+is_hidden = 0
+
+[FaqAsk]
+category = 1
+
+[FaqList]
+category = 1
+sortOrder = "order"
+openFirst = 0
+limit = 3
+
+[FaqList FaqList2]
+category = 2
+sortOrder = "desc"
+openFirst = 1
+limit = 10
+==
+<section class="faq pb-3 pt-3">
+	<div class="container">
+    	<h2>Questions by category</h2>
+    	{% component 'FaqList' %}
+    	<hr>
+    	{% component 'FaqList2' %}
+    	<hr>
+    	<h3>Ask a question</h3>
+    	{% component 'FaqAsk' %}
+    	<hr>
+    	
+  	</div>
+</section>";s:5:"mtime";i:1586655685;s:6:"markup";s:271:"<section class="faq pb-3 pt-3">
+	<div class="container">
+    	<h2>Questions by category</h2>
+    	{% component 'FaqList' %}
+    	<hr>
+    	{% component 'FaqList2' %}
+    	<hr>
+    	<h3>Ask a question</h3>
+    	{% component 'FaqAsk' %}
+    	<hr>
+    	
+  	</div>
+</section>";s:4:"code";N;s:5:"title";s:3:"FAQ";s:3:"url";s:20:"/faq-category/:slug?";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:6:"FaqAsk";a:1:{s:8:"category";s:1:"1";}s:7:"FaqList";a:4:{s:8:"category";s:1:"1";s:9:"sortOrder";s:5:"order";s:9:"openFirst";s:1:"0";s:5:"limit";s:1:"3";}s:16:"FaqList FaqList2";a:4:{s:8:"category";s:1:"2";s:9:"sortOrder";s:4:"desc";s:9:"openFirst";s:1:"1";s:5:"limit";s:2:"10";}}}

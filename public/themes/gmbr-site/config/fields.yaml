@@ -1,0 +1,26 @@
+tabs:
+  fields:
+
+    ####################################################
+    # Tab: 1.0 General Settings
+    ####################################################
+    
+    theme_info_section:
+      tab: "General"
+      label: "Info"
+      type: section
+      comment: "General Informations"
+      cssClass: "p-a m-y control-scrollpanel"
+
+    theme_site_name:
+      tab: "General"
+      label: "Website Name"
+      type: text
+      default: "GmBr Games"
+
+    theme_site_description:
+      tab: "General"
+      label: "Website Description"
+      type: text
+      default: "Online and Training Games: Cribbage, Gin Rummy, Canasta, Backgammon, Dominoes"
+        

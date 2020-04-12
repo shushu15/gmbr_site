@@ -1,0 +1,39 @@
+@import '_variables.scss';
+
+@import '_mixins.scss';
+
+@import '_media-query.scss';
+
+@import '_typography.scss';
+
+@import '_common.scss';
+
+@import '_main.scss';
+
+@import 'templates/_header.scss';
+
+@import 'templates/_navigation.scss';
+@import 'templates/_backgrounds.scss';
+
+@import 'templates/_slider.scss';
+@import 'templates/_intro.scss';
+@import 'templates/_about.scss';
+@import 'templates/_counter.scss';
+@import 'templates/_team.scss';
+
+@import 'templates/_service.scss';
+@import 'templates/_cta.scss';
+@import 'templates/_review.scss';
+@import 'templates/_pricing.scss';
+@import 'templates/_portfolio.scss';
+@import 'templates/_contact.scss';
+@import 'templates/_blog.scss';
+@import 'templates/_single-post.scss';
+@import 'templates/_blog-sidebar.scss';
+
+@import 'templates/_footer.scss';
+@import 'templates/_responsive.scss';
+
+
+
+

@@ -1,0 +1,42 @@
+1586699048a:1:{s:11:"offline.htm";a:9:{s:8:"fileName";s:11:"offline.htm";s:7:"content";s:520:"title = "Off-line"
+url = "/offline"
+layout = "simple"
+is_hidden = 0
+==
+<div class="container h-100 d-flex">
+    <div class="jumbotron my-auto mx-auto">
+      	<h1 class="display-3">We are OFF-LINE!</h1>
+      	<hr>
+      	<p class="lead">At the moment, we are working hard to bring our website ONLINE again.</p>
+        <div class="note pt-2">
+            Be patient please, and see you soon!
+        </div>
+    </div>
+</div>
+
+
+{% put styles %}
+<style>
+	body, html {
+		height: calc(100% - 48px);
+	}
+</style>
+{% endput %}";s:5:"mtime";i:1586655685;s:6:"markup";s:449:"<div class="container h-100 d-flex">
+    <div class="jumbotron my-auto mx-auto">
+      	<h1 class="display-3">We are OFF-LINE!</h1>
+      	<hr>
+      	<p class="lead">At the moment, we are working hard to bring our website ONLINE again.</p>
+        <div class="note pt-2">
+            Be patient please, and see you soon!
+        </div>
+    </div>
+</div>
+
+
+{% put styles %}
+<style>
+	body, html {
+		height: calc(100% - 48px);
+	}
+</style>
+{% endput %}";s:4:"code";N;s:5:"title";s:8:"Off-line";s:3:"url";s:8:"/offline";s:6:"layout";s:6:"simple";s:9:"is_hidden";s:1:"0";}}

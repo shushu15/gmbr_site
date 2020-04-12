@@ -1,0 +1,20 @@
+1586699050a:1:{s:16:"site/scripts.htm";a:5:{s:8:"fileName";s:16:"site/scripts.htm";s:7:"content";s:406:"    <script   src="https://code.jquery.com/jquery-3.4.1.min.js"
+              integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+              crossorigin="anonymous"></script>
+    <script src="{{[
+            'assets/js/bootstrap.bundle.min.js',
+            '@framework',
+            '@framework.extras',
+            'assets/js/site.js',
+        ] | theme }}"></script>
+    {% scripts %}
+    ";s:5:"mtime";i:1586655685;s:6:"markup";s:397:"<script   src="https://code.jquery.com/jquery-3.4.1.min.js"
+              integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+              crossorigin="anonymous"></script>
+    <script src="{{[
+            'assets/js/bootstrap.bundle.min.js',
+            '@framework',
+            '@framework.extras',
+            'assets/js/site.js',
+        ] | theme }}"></script>
+    {% scripts %}";s:4:"code";N;}}

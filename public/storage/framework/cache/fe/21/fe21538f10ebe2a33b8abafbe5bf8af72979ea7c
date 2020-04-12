@@ -1,0 +1,47 @@
+1586656326a:1:{s:14:"menu-items.htm";a:6:{s:8:"fileName";s:14:"menu-items.htm";s:7:"content";s:718:"[viewBag]
+==
+<ul class="navbar-nav {{ class }}">
+  {% for item in items %}
+    <li class="
+      nav-item
+      {{ item.isActive or item.isChildActive ? 'active' : '' }} 
+      {{ item.items ? 'dropdown' : '' }}
+    ">
+      <a
+        class="nav-link {% if item.items %}dropdown-toggle{% endif %}"
+        {% if item.items %}data-toggle="dropdown"{% endif %} 
+        href="{{ item.url }}"
+      >{{ item.title }}</a>
+
+      {% if item.items %}
+        <div class="dropdown-menu">
+          {% for subitem in item.items %}
+            <a class="dropdown-item" href="{{ subitem.url }}">{{ subitem.title }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>";s:5:"mtime";i:1586540114;s:6:"markup";s:705:"<ul class="navbar-nav {{ class }}">
+  {% for item in items %}
+    <li class="
+      nav-item
+      {{ item.isActive or item.isChildActive ? 'active' : '' }} 
+      {{ item.items ? 'dropdown' : '' }}
+    ">
+      <a
+        class="nav-link {% if item.items %}dropdown-toggle{% endif %}"
+        {% if item.items %}data-toggle="dropdown"{% endif %} 
+        href="{{ item.url }}"
+      >{{ item.title }}</a>
+
+      {% if item.items %}
+        <div class="dropdown-menu">
+          {% for subitem in item.items %}
+            <a class="dropdown-item" href="{{ subitem.url }}">{{ subitem.title }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

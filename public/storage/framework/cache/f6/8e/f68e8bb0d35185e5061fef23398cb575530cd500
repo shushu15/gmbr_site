@@ -1,0 +1,49 @@
+1586699048a:1:{s:15:"plugins/faq.htm";a:13:{s:8:"fileName";s:15:"plugins/faq.htm";s:7:"content";s:612:"title = "FAQ"
+url = "/plugins/faq/:slug?"
+layout = "default"
+is_hidden = 0
+
+[FaqAll]
+limit = 25
+sortOrder = "Select sort order"
+
+[FaqAsk]
+category = 1
+
+[FaqFeatured]
+featuredNumber = 5
+
+[FaqList]
+category = 1
+sortOrder = "desc"
+openFirst = 1
+==
+<section class="faq pb-3 pt-3">
+	<div class="container">
+    	<h2>Frequently Asked Questions</h2>
+    	{% component 'FaqAll' %}
+    	<hr>
+    	<h2>Questions by category</h2>
+    	{% component 'FaqList' %}
+    	<hr>
+    	<h3>Ask a question</h3>
+    	{% component 'FaqAsk' %}
+    	<hr>
+    	<h3>Hot Questions</h3>
+    	{% component 'FaqFeatured' %}
+  	</div>
+</section>";s:5:"mtime";i:1586655685;s:6:"markup";s:367:"<section class="faq pb-3 pt-3">
+	<div class="container">
+    	<h2>Frequently Asked Questions</h2>
+    	{% component 'FaqAll' %}
+    	<hr>
+    	<h2>Questions by category</h2>
+    	{% component 'FaqList' %}
+    	<hr>
+    	<h3>Ask a question</h3>
+    	{% component 'FaqAsk' %}
+    	<hr>
+    	<h3>Hot Questions</h3>
+    	{% component 'FaqFeatured' %}
+  	</div>
+</section>";s:4:"code";N;s:5:"title";s:3:"FAQ";s:3:"url";s:19:"/plugins/faq/:slug?";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:6:"FaqAll";a:2:{s:5:"limit";s:2:"25";s:9:"sortOrder";s:17:"Select sort order";}s:6:"FaqAsk";a:1:{s:8:"category";s:1:"1";}s:11:"FaqFeatured";a:1:{s:14:"featuredNumber";s:1:"5";}s:7:"FaqList";a:3:{s:8:"category";s:1:"1";s:9:"sortOrder";s:4:"desc";s:9:"openFirst";s:1:"1";}}}

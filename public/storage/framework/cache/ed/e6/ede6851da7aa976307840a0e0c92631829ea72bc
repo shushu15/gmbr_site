@@ -1,0 +1,50 @@
+1586699048a:1:{s:26:"plugins/offline-search.htm";a:11:{s:8:"fileName";s:26:"plugins/offline-search.htm";s:7:"content";s:865:"title = "Search"
+url = "/search"
+layout = "default"
+meta_title = "Blog search"
+is_hidden = 0
+
+[searchResults]
+resultsPerPage = 1000
+showProviderBadge = 1
+noResultsMessage = "Your search returned no results."
+visitPageMessage = "Visit page"
+==
+<section class="search">
+	<div class="container">
+		<div class="res" style=" min-height: 500px;">
+			<br>
+			<h1>Search result for phrase - "{{ searchResults.query }}"</h1>
+			
+			<form action="{{ 'search' | page }}" method="get">
+				<div class="input-group mb-3">
+				  <input type="text" class="form-control" value="{{ searchResults.query }}" name="q" type="text" placeholder="Search" autocomplete="on">
+				  <div class="input-group-append">
+				    <button class="btn btn-success" type="submit">SEARCH</button>
+				  </div>
+				</div>
+			</form>
+			<br>
+			{% component 'searchResults' %}
+		</div>
+	</div>
+</section>
+";s:5:"mtime";i:1586655685;s:6:"markup";s:621:"<section class="search">
+	<div class="container">
+		<div class="res" style=" min-height: 500px;">
+			<br>
+			<h1>Search result for phrase - "{{ searchResults.query }}"</h1>
+			
+			<form action="{{ 'search' | page }}" method="get">
+				<div class="input-group mb-3">
+				  <input type="text" class="form-control" value="{{ searchResults.query }}" name="q" type="text" placeholder="Search" autocomplete="on">
+				  <div class="input-group-append">
+				    <button class="btn btn-success" type="submit">SEARCH</button>
+				  </div>
+				</div>
+			</form>
+			<br>
+			{% component 'searchResults' %}
+		</div>
+	</div>
+</section>";s:4:"code";N;s:5:"title";s:6:"Search";s:3:"url";s:7:"/search";s:6:"layout";s:7:"default";s:10:"meta_title";s:11:"Blog search";s:9:"is_hidden";s:1:"0";s:13:"searchResults";a:4:{s:14:"resultsPerPage";s:4:"1000";s:17:"showProviderBadge";s:1:"1";s:16:"noResultsMessage";s:32:"Your search returned no results.";s:16:"visitPageMessage";s:10:"Visit page";}}}
