@@ -6,11 +6,11 @@ description = "Header with TopBar and Navigation"
 <header class="navigation">
 	<nav class="navbar navbar-expand-lg  py-4" id="navbar">
 		<div class="container">
-		  <a class="navbar-brand text-nowrap" href="{{ 'home'|page }}">
+		  <a class="navbar-brand text-nowrap accent" href="{{ 'home'|page }}">
 			<span class="hidden-md-up">
 				<img class="img-responsive" src="{{ 'assets/images/logo36x36.png'|theme }}" alt="logo">
 			</span>
-		  	GmBr<span>games.</span>
+			GmBr<span> games.</span>
 		  </a>
 
 		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,6 +47,7 @@ description = "Header with TopBar and Navigation"
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ 'Help'|_ }}</a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown04">
 						<li><a class="dropdown-item" href="{{ 'blog'|page }}">{{ 'Blog'|_ }}</a></li>
+						<div class="dropdown-divider"></div>
 						<li><a class="dropdown-item" href="{{ 'about'|page }}">{{ 'Our company'|_ }}</a></li>
 						<li><a class="dropdown-item" href="{{ 'contact-us'|page }}">{{ 'Contact'|_ }}</a></li>
 					</ul>

@@ -1,0 +1,11 @@
+header {
+    .accent, 
+    .navbar-brand .accent {
+        color: $accent-color;
+    }
+    .navbar-brand a.accent:focus, a.accent:hover {
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
+  
