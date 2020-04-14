@@ -6,25 +6,35 @@ is_hidden = 0
 [genericForm]
 messages_success = "Your form was successfully submitted"
 messages_errors = "There were errors with your submission"
+mail_enabled = 1
+mail_subject = "form submitted"
+mail_recipients[] = "support@gameberg.com"
 inline_errors = "disabled"
 sanitize_data = "disabled"
 anonymize_ip = "disabled"
+recaptcha_enabled = 0
 recaptcha_theme = "light"
 recaptcha_type = "image"
 recaptcha_size = "normal"
 ==
+<script src="{{ 'assets/js/jquery-3.5.0.min.js'|theme }}"></script>
+
+{% framework %}
+{% framework extras %}
+
+
 <!-- Section Page Intro Start -->
-<section class="page-title bg-1">
+<section class="page-title bg-1" style="background:url({{ 'assets/images/card-jombo_1280.jpg'|theme }}) no-repeat 50% 50%;background-size: cover;">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="block text-center">
-                    <span class="text-white">Contact Us</span>
-                    <h1 class="text-capitalize mb-4 text-lg">Get in Touch</h1>
+                    <span class="text-white">{{ 'Contact Us'|_ }}</span>
+                    <h1 class="text-capitalize mb-4 text-lg">{{ 'Get in Touch'|_ }}</h1>
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="{{ 'home'|page }}" class="text-white">Home</a></li>
+                        <li class="list-inline-item"><a href="{{ 'home'|page }}" class="text-white">{{ 'Home'|_ }}</a></li>
                         <li class="list-inline-item"><span class="text-white">/</span></li>
-                        <li class="list-inline-item"><a href="#" class="text-white-50">Contact Us</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white-50">{{ 'Contact Us'|_ }}</a></li>
                     </ul>
                 </div>
             </div>
@@ -42,30 +52,30 @@ recaptcha_size = "normal"
 
             <div class="col-lg-5 col-sm-12">
                 <div class="contact-content pl-lg-5 mt-5 mt-lg-0">
-                    <span class="text-muted">We are Professionals</span>
+                    <span class="text-muted">We are in touch</span>
                     <h2 class="mb-5 mt-2">Don’t Hesitate to contact with us for any kind of information</h2>
 
                     <ul class="address-block list-unstyled">
-                        <li>
+                        <!-- li>
                             <i class="ti-direction mr-3"></i>North Main Street,Brooklyn Australia
-                        </li>
+                        </li -->
                         <li>
-                            <i class="ti-email mr-3"></i>Email: contact@mail.com
+                            <i class="ti-email mr-3"></i>Email: support@gameberg.com
                         </li>
-                        <li>
+                        <!-- li>
                             <i class="ti-mobile mr-3"></i>Phone:+88 01672 506 744
-                        </li>
+                        </li -->
                     </ul>
 
                     <ul class="social-icons list-inline mt-5">
                         <li class="list-inline-item">
-                            <a href="http://www.themefisher.com"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/gameberg"><i class="fab fa-facebook-f"></i></a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="http://www.themefisher.com"><i class="fab fa-twitter"></i></a>
+                            <a href="https://twitter.com/gameberg"><i class="fab fa-twitter"></i></a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="http://www.themefisher.com"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/in/gameberg/"><i class="fab fa-linkedin-in"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -75,7 +85,7 @@ recaptcha_size = "normal"
 </section>
 <!-- Contact Form End -->
 <!-- Google Map Start -->
-<div class="google-map">
+<!-- div class="google-map">
     <div id="map"></div>
-</div>
+</div -->
 <!-- Google Map End -->
