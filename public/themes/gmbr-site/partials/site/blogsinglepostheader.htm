@@ -2,17 +2,21 @@
 description = "Blog Single Post Header"
 ==
 {##}
-<section class="page-title bg-1">
+<section class="page-title bg-1" style="background:url({{ 'assets/images/blog-banner.jpg'|theme }}) no-repeat 50% 50%;background-size: cover;">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="block text-center">
-                    <span class="text-white">News details</span>
-                    <h1 class="text-capitalize mb-4 text-lg">Blog Single</h1>
+                    <span class="text-white">{{ 'News details'|_ }}</span>
+                    {% if post.title %}
+                        <h1 class="text-capitalize mb-4 text-lg">{{ post.title }}</h1>
+                    {% else %}
+                        <h1 class="text-capitalize mb-4 text-lg">{{ 'Blog Single'|_ }}</h1>
+                    {% endif %}
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="{{ 'home'|page }}" class="text-white">Home</a></li>
+                        <li class="list-inline-item"><a href="{{ 'home'|page }}" class="text-white">{{ 'Home'|_ }}</a></li>
                         <li class="list-inline-item"><span class="text-white">/</span></li>
-                        <li class="list-inline-item"><a href="#" class="text-white-50">News details</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white-50">{{ 'News details'|_ }}</a></li>
                     </ul>
                 </div>
             </div>

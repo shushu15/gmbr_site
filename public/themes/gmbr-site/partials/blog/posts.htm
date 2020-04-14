@@ -9,7 +9,7 @@ description = "Blog Posts Overview"
             {% if post.featured_images.count > 0 %}
             <img class="media-object img-fluid rounded" src="{{ post.featured_images.first.getThumb(540, 'auto') }}" />
             {% else %}
-            <img class="media-object img-fluid rounded" src="https://placehold.it/540x450" />
+            <!-- img class="media-object img-fluid rounded" src="https://placehold.it/540x450" / -->
             {% endif %}
             <div class="blog-item-content bg-white p-5">
 				<div class="blog-item-meta bg-gray py-1 px-2">

@@ -62,11 +62,12 @@ input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
   color: $light;
   @include transition (all, 0.2s, ease);
  
-  &:hover {
+  &:hover, &:focus {
     background: darken( $primary-color, 20% );
     color: $light;
   }
 }
+
 
 
 .btn-solid-border {
